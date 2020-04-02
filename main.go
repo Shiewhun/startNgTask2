@@ -50,7 +50,7 @@ type Kilograms float64
 type Pounds float64
 
 //MinutesToSeconds ...
-func (c *Converter) MinutesToSeconds(v Minutes) Seconds {
+func (c Converter) MinutesToSeconds(v Minutes) Seconds {
 	c.Seconds = Seconds(v) * 60
 	return c.Seconds
 }
