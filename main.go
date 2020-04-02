@@ -5,16 +5,6 @@ import (
 	"math"
 )
 
-/*
-creat struct converter
-define types
-minutes, seconds
-centimeter, feet
-celsius, farentheit
-radian, degree
-kilogram, pounds
-*/
-
 //Converter contains all the units as fields
 type Converter struct {
 	Minutes
